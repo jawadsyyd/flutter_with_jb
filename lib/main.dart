@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Flutter Demo',
+      // [J] change title to "First_Project" (Start)
+      title: 'First Project',
+      // (End)
       home: Center(child: Text('Flutter Demo Home Page')),
     );
   }
